@@ -1,0 +1,1665 @@
+/* =============================
+    Common Css start
+============================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-X: hidden;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.buttons{
+    text-align: center;
+    margin-top: 40px;
+}
+.buttons a{
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    background: #ff5200;
+    border: 1px solid #ff5200;
+    border-radius: 5px;
+    padding: 10px 18px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.buttons a:last-child{
+    margin-left: 20px;
+}
+.buttons a:hover{
+    box-shadow: 0 0 14px #ff5200;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    color: #09015f;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.title p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    width: 570px;
+    line-height: 24px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* =============================
+    Common Css end
+============================== */
+
+
+
+/* =============================
+    Preloader part Css start
+============================== */
+#preloader{
+    background: #170f6d;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    display: block;
+}
+#preloader .loading-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    
+}
+#preloader .loading-text span{
+    position: relative;
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+    font-size: 45px;
+    letter-spacing: 8px;
+    -webkit-box-reflect: below -22px linear-gradient(transparent, rgb(0, 0, 0, 0.2));
+    animation: animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(-20px);
+    }
+    40%,100%{
+        transform: translateY(0px);
+    }
+}
+/* =============================
+    Preloader part Css end
+============================== */
+
+
+/* =============================
+    Nav bar part Css start
+============================== */
+.nav-bar{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 9999;
+}
+.fixedmenu{
+    background: #170f6d;
+}
+.nav-bar .logo .img img{
+    width: 100%;
+}
+.nav-bar .menu-item{
+    display: flex;
+    margin-top: 12px;
+    position: relative;
+}
+
+.nav-bar .menu-item ul{
+    text-align: right;
+    margin: 0;
+    margin-top: 10px !important;
+    padding-left: 0 !important;
+    display: block;
+}
+.nav-bar .menu-item ul li{
+    display: inline-block;
+    margin-left: 35px;
+    transition: .4s;
+}
+.nav-bar .menu-item ul li a{
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.nav-bar .menu-item ul li a.active{
+    color: #fb3640;
+}
+.nav-bar .menu-item ul .drop-down{
+    position: relative;
+    transition: .4s;
+}
+.nav-bar .menu-item ul .drop-down .drop-menu{
+    position: absolute;
+    bottom: -185px;
+    left: -15px;
+    background: #ff5200;
+    width: 150px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: left;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+    z-index: 1;
+}
+.nav-bar .menu-item ul .drop-down .drop-menu li{
+    display: block;
+    padding: 8px !important;
+    margin-left: 0;
+}
+.nav-bar .menu-item ul .drop-down .drop-menu li a{
+    color: #ffffff;
+    transition: .4s;
+}
+.nav-bar .menu-item .ticket-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav-bar .menu-item .ticket-button a{
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    background: #fb3640;
+    border: 1px solid #fb3640;
+    border-radius: 5px;
+    padding: 5px 16px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+    -moz-box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+    box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+}
+.nav-bar .menu-item ul li:hover a{
+    color: #fb3640;
+}
+.nav-bar .menu-item ul .drop-down:hover .drop-menu{
+    bottom: -130px;
+    visibility: visible;
+    opacity: 1;
+}
+.nav-bar .menu-item ul .drop-down .drop-menu li:hover{
+    background: #ffffff;
+}
+.nav-bar .menu-item ul .drop-down .drop-menu li:hover a{
+    color: #fb3640;
+}
+.nav-bar .menu-item span:hover{
+    box-shadow: 0 0 14px #fb3640;
+}
+.mobile-nav{
+    display: none;
+}
+
+/* =============================
+    Nav bar part Css end
+============================== */
+
+
+
+/* =============================
+    Banner part Css start
+============================== */
+#banner-part{
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    margin-top: -20px;
+}
+#banner-part .banner-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(1, 1, 87,0.7);
+    padding: 200px 0 100px 0;
+}
+#banner-part .banner-overlay .banner-slider .banner-text h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 3px 1px 2px #ff5200;
+}
+#banner-part .banner-overlay .banner-slider .banner-text span{
+    display: block;
+    font-size: 60px;
+    color: #ff5200;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+#banner-part .banner-overlay p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 26px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px !important;
+    text-align: center;
+}
+#banner-part .banner-overlay .nxt{
+    display: inline-block;
+    position: absolute;
+    top: 65%;
+    right: -12%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ff5200;
+    padding: 8px;
+    transform: translate(-50%,-50%);
+    transition: .4s;
+}
+#banner-part .banner-overlay .prv{
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    right: -12%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ff5200;
+    padding: 8px;
+    transform: translate(-50%,-50%);
+    transition: .4s;
+}
+#banner-part .banner-overlay .social-part{
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 20px;
+    padding-left: 0;
+    transform: translateY(-50%);
+}
+#banner-part .banner-overlay .social-part .icons a{
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    background: #ff5200;
+    border: 1px solid #ff5200;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    margin-top: 10px;
+    padding:2px 20px;
+    transition: .4s;
+}
+#banner-part .banner-overlay .social-part .icons a:hover{
+    transform: scale(1.2);
+}
+#banner-part .banner-overlay .nxt:hover{
+    background: #ff5200;
+}
+#banner-part .banner-overlay .prv:hover{
+    background: #ff5200;
+}
+/* =============================
+    Banner part Css end
+============================== */
+
+/* =============================
+    Counter part Css start
+============================== */
+#counter-part{
+    background: #170f6d;
+    padding: 20px 0;
+}
+#counter-part .main-item{
+    display: flex;
+    justify-content: center;
+}
+#counter-part .main-item .time-box{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    margin: 0 20px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+#counter-part .main-item .time-box h5{
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* =============================
+    Counter part Css end
+============================== */
+
+
+/* =============================
+    Blog banner part Css start
+============================== */
+#blog-banner{
+    background: url(../images/blog-bg.png) no-repeat center;
+    background-size: cover;
+}
+#blog-banner .blog-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(1, 1, 87,0.7);
+    padding: 120px 0 100px 0;
+}
+#blog-banner .blog-overlay ul{
+    text-align: center;
+    padding: 0;
+    margin-top: 100px;
+}
+#blog-banner .blog-overlay ul li{
+    display: inline-block;
+}
+#blog-banner .blog-overlay ul li span{
+    color: #ffffff;
+}
+#blog-banner .blog-overlay ul li a{
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#blog-banner .blog-overlay h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 3px 1px 2px #ff5200;
+}
+
+/* =============================
+    Blog banner part Css end
+============================== */
+
+
+/* =============================
+    Blog post part Css start
+============================== */
+#blog-post{
+    background: #ffffff;
+    padding: 100px 0;
+}
+#blog-post .blog-item{
+    margin-top: 60px;
+}
+#blog-post .blog-img{
+    border-radius: 15px;
+    overflow: hidden;
+}
+#blog-post .blog-img img{
+    width: 100%;
+}
+#blog-post .blog-text h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 35px;
+    color: #17b978;
+    font-weight: 600;
+    margin-top: -9px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+#blog-post .blog-text h3 span{
+    color: #ff5200;
+}
+#blog-post .blog-text p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 26px;
+}
+#blog-post .blog-text .max-para{
+    display: none;
+}
+#blog-post .blog-text p:nth-child(3){
+    margin: 15px 0;
+}
+#blog-post .blog-text .button{
+    display: none;
+}
+
+
+/* =============================
+    Blog post part Css end
+============================== */
+
+
+
+/* =============================
+    About part Css start
+============================== */
+#about-part{
+    background: #ffffff;
+    padding: 100px 0;
+}
+#about-part .title{
+    text-align: left;
+}
+#about-part .text h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 35px;
+    color: #17b978;
+    font-weight: 600;
+    margin-top: 15px;
+}
+#about-part .text h3 span{
+    color: #ff5200;
+}
+#about-part .text p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 10px;
+}
+#about-part .text p:last-child{
+    margin-top: 40px !important;
+}
+#about-part .text .buttons{
+    text-align: left;
+}
+#about-part .text .buttons a{
+    margin-left: 0;
+}
+#about-part .text .buttons .play{
+    display: inline-block;
+    background: transparent;
+    color: #ff5200;
+    border: 1px solid #ff5200;
+    border-radius: 50%;
+    margin-left: 30px;
+    padding: 13px 15px;
+    transition: .4s;
+}
+#about-part .text .buttons .play svg{
+    margin-left: 5px;
+}
+#about-part .text .buttons .play:hover{
+    background: #ff5200;
+    color: #ffffff;
+    box-shadow: none;
+}
+#about-part .img{
+    overflow: hidden;
+    position: relative;
+}
+#about-part .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgb(1, 1, 87, 0.6);
+    opacity: 0;
+    transition: .4s;
+}
+#about-part .img img{
+    width: 100%;
+    transition: .4s;
+}
+#about-part .top{
+    margin-top: 25px;
+}
+#about-part .img:hover img{
+    transform: scale(1.1);
+}
+#about-part .img:hover .overlay{
+    height: 100%;
+    opacity: 1;
+}
+/* =============================
+    About part Css end
+============================== */
+
+
+/* =============================
+    Contact banner part Css start
+============================== */
+#contact-banner{
+    background: url(../images/contact-banner.png) no-repeat center;
+    background-size: cover;
+}
+#contact-banner .contact-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(1, 1, 87,0.7);
+    padding: 120px 0 100px 0;
+}
+#contact-banner .contact-overlay ul{
+    text-align: center;
+    padding: 0;
+    margin-top: 100px;
+}
+#contact-banner .contact-overlay ul li{
+    display: inline-block;
+}
+#contact-banner .contact-overlay ul li span{
+    color: #ffffff;
+}
+#contact-banner .contact-overlay ul li a{
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#contact-banner .contact-overlay h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 3px 1px 2px #ff5200;
+}
+
+/* =============================
+    Contact banner part Css end
+============================== */
+
+
+/* =============================
+    Contact part Css start
+============================== */
+#contact-part{
+    background: #ffffff;
+    padding-top: 100px;
+}
+#contact-part .contact-item{
+    margin-top: 40px;
+}
+#contact-part form{
+    background: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+    padding: 28px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.24);
+}
+#contact-part form .m-top{
+    margin-top: 20px;
+}
+#contact-part form .mar-left{
+    margin-left: 20px;
+}
+#contact-part form input{
+    width: 45%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    border: 1px solid #dedede;
+    outline: 0;
+    padding: 8px 10px;
+}
+#contact-part form textarea{
+    width: 93%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    border: 1px solid #dedede;
+    outline: 0;
+    padding: 8px 10px 100px 10px;
+    margin-top: 20px;
+}
+#contact-part form input::placeholder,textarea::placeholder{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+}
+#contact-part form .button{
+    text-align: left;
+}
+#contact-part form button{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    background: #ff5200;
+    border: 1px solid #ff5200;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+#contact-part .chose-item{
+    background: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+    padding:5px 30px 10px 30px;
+    transition: .4s;
+}
+#contact-part .chose-item span{
+    display: inline-block;
+    font-size: 40px;
+    color: #ff5200;
+}
+#contact-part .chose-item h5{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    color: #17b978;
+    font-weight: 600;
+}
+#contact-part .chose-item a{
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: #777777;
+}
+#contact-part .phone{
+    margin: 10px 0;
+}
+#contact-part .chose-item:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.24);
+}
+#contact-part .map{
+    margin-top: 40px;
+}
+#contact-part .map iframe{
+    width: 100%;
+}
+
+/* =============================
+    Contact part Css end
+============================== */
+
+
+/* =============================
+    Reg banner part Css start
+============================== */
+#reg-banner{
+    background: url(../images/reg-banner.png) no-repeat center;
+    background-size: cover;
+}
+#reg-banner .reg-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(1, 1, 87,0.7);
+    padding: 120px 0 100px 0;
+}
+#reg-banner .reg-overlay ul{
+    text-align: center;
+    padding: 0;
+    margin-top: 100px;
+}
+#reg-banner .reg-overlay ul li{
+    display: inline-block;
+}
+#reg-banner .reg-overlay ul li span{
+    color: #ffffff;
+}
+#reg-banner .reg-overlay ul li a{
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#reg-banner .reg-overlay h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 3px 1px 2px #ff5200;
+}
+
+/* =============================
+    Reg banner part Css end
+============================== */
+
+
+/* =============================
+    Events part Css start
+============================== */
+#events-part{
+    background: #f5f5f5;
+    padding: 120px 0;
+}
+#events-part .title{
+    text-align: left;
+}
+#events-part .left .item{
+    background: #ffffff;
+    margin-top: 8px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 1px #d9d9d9;
+}
+#events-part .left .bottom .item{
+    margin-top: 25px;
+}
+#events-part .left .item h4{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    color: #444444;
+    font-weight: 600;
+}
+#events-part .left .item h4 span{
+    position: absolute;
+    top: 1px;
+    right: 3px;
+    font-size: 30px;
+    color: #dedede;
+    transition: .4s;
+}
+
+#events-part .left .item p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    color: #777777;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+    text-align: justify;
+    width: 272px;
+}
+#events-part .right{
+    margin-left: 20px;
+}
+#events-part .right .text h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 35px;
+    color: #17b978;
+    font-weight: 600;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+#events-part .right .text h3 span{
+    color: #ff5200;
+}
+#events-part .right .text p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+#events-part .right .buttons{
+    text-align: left;
+}
+#events-part .right .buttons a{
+    margin-left: 0;
+}
+#events-part .left .item:hover h4 span{
+    color: #ff5200;
+}
+/* =============================
+    Events part Css end
+============================== */
+
+
+
+/* =============================
+    Another-Counter part Css start
+============================== */
+#anothercounter-part{
+    background: url(../images/another-bg.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#anothercounter-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(1, 1, 87,0.85);
+    padding: 60px 0;
+}
+#anothercounter-part .overlay .counter-box{
+    display: flex;
+}
+#anothercounter-part .overlay .box1{
+    margin-left: -200px;
+    text-align: center;
+}
+#anothercounter-part .overlay .box2{
+    margin-left: -30px;
+}
+#anothercounter-part .overlay .box3{
+    margin-left: 70px;
+}
+#anothercounter-part .overlay .box4{
+    margin-left: 195px;
+}
+#anothercounter-part .overlay .counter{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+#anothercounter-part .overlay span{
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: -13px;
+    margin-top: -5px;
+}
+#anothercounter-part .overlay .sign2{
+    margin-top: -5px;
+    margin-left: -95px;
+}
+#anothercounter-part .overlay .sign3{
+    margin-left: -48px;
+}
+#anothercounter-part .overlay .sign4{
+    margin-top: -5px;
+    margin-left: 2px;
+}
+#anothercounter-part .overlay .down-text{
+    display: block;
+    font-size: 22px;
+    margin-top: 68px;
+    margin-left: -100px;
+}
+#anothercounter-part .overlay .down-text1{
+    display: block;
+    font-size: 22px;
+    margin-top: 68px;
+    margin-left: -142px;
+}
+#anothercounter-part .overlay .down-text2{
+    display: block;
+    margin-left: -93px;
+}
+#anothercounter-part .overlay .down-text4{
+    display: block;
+    font-size: 22px;
+    margin-top: 68px;
+    margin-left: -120px;
+}
+/* =============================
+    Another-Counter part Css end
+============================== */
+
+
+/* =============================
+    Speaker part Css start
+============================== */
+#speaker-part{
+    background: #ffffff;
+    padding: 120px 0;
+}
+#speaker-part .title{
+    text-align: left;
+}
+#speaker-part .title h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 35px;
+    color: #17b978;
+    font-weight: 600;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+#speaker-part .title h3 span{
+    color: #ff5200;
+}
+#speaker-part .text-part .text-slider .text{
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 0 !important;
+    text-align: left;
+}
+#speaker-part .text-part .text-slider .text p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    line-height: 26px;
+    width: 428px;
+    text-transform: capitalize;
+    margin: auto;
+}
+#speaker-part .text-part .text-slider .text .spece-time span{
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    border-radius: 5px;
+    padding: 5px 5px 5px 0;
+    font-weight: 400;
+    margin-top: 15px;
+}
+#speaker-part .text-part .text-slider .text .spece-time span svg{
+    color: #ff5200;
+    margin-right: 5px;
+}
+#speaker-part .img-slider .img{
+    position: relative;
+}
+#speaker-part .img-slider .img img{
+    width: 95%;
+}
+#speaker-part .img-slider .img .details{
+    position: absolute;
+    bottom: 7px;
+    left: 9px;
+    width: 90%;
+    padding: 10px 0;
+    background: rgb(255, 82, 0,.7);
+    text-align: center;
+    display: none;
+}
+#speaker-part .img-slider .img.slick-center .details{
+    display: block;
+}
+#speaker-part .img-slider .img .details h4{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+}
+#speaker-part .img-slider .img .details p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+}
+#speaker-part .img-slider .img .details .icons a{
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    border-bottom: 1px solid transparent;
+    margin: 5px 10px;
+    transition: .4s;
+}
+#speaker-part .img-slider .img .details .icons a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+#speaker-part .nxt{
+    position: absolute;
+    bottom: -28%;
+    left: 12%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #ff5200;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: #444444;
+    transform: translate(-50%,-50%);
+}
+#speaker-part .prv{
+    position: absolute;
+    bottom: -28%;
+    left: 3%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #ff5200;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: #444444;
+    transform: translate(-50%,-50%);
+}
+/* =============================
+    Speaker part Css end
+============================== */
+
+
+
+/* =============================
+    Schedule part Css start
+============================== */
+#schedule-part{
+    background: #ecf6f8b6;
+    padding: 100px 0;
+}
+#schedule-part .title h2{
+    text-align: center;
+}
+#schedule-part .boxscroll{
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 550px;
+    outline: 0;
+    position: relative;
+    margin-top: 60px;
+}
+#schedule-part .boxscroll .event-item{
+    background: #ffffff;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: .4s;
+}
+#schedule-part .boxscroll .event-item .img{
+    width: 15%;
+}
+#schedule-part .boxscroll .event-item .img img{
+    width: 100%;
+}
+#schedule-part .boxscroll .event-item .details{
+    width: 55%;
+    position: relative;
+}
+#schedule-part .boxscroll .event-item .details h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    color: #ff5200;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+#schedule-part .boxscroll .event-item .details p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    font-weight: 400;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+#schedule-part .boxscroll .event-item .details span{
+    display: inline-block;
+    color: #17b978;
+    font-size: 20px;
+    position: absolute;
+    top: 98px;
+    left: 0;
+}
+#schedule-part .boxscroll .event-item .details span:nth-child(2){
+    top: 67px;
+}
+#schedule-part .boxscroll .event-item .button{
+    width: 17%;
+}
+#schedule-part .boxscroll .event-item .button .buttons{
+    margin-top: 60px;
+}
+#schedule-part .boxscroll .event-item .button .buttons a{
+    margin-left: 0;
+}
+.nicescroll-cursors{
+    background: #ff5200 !important;
+    height: 50px !important;
+    margin-top: 20px;
+    opacity: 1;
+}
+#schedule-part .boxscroll .event-item:hover{
+    box-shadow: 0px 4px 5px 0px #d9d9d9;
+}
+/* =============================
+    Schedule part Css end
+============================== */
+
+
+/* =============================
+    Price plan part Css start
+============================== */
+#price-plan{
+    background: #ffffff;
+    padding: 120px 0;
+}
+#price-plan .title h2{
+    text-align: center;
+}
+#price-plan .ticket-item{
+    background: #ffffff;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 1px #dedede;
+    transition: .4s;
+    text-align: center;
+}
+#price-plan .ticket-item h4{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: #ff5200;
+    letter-spacing: 1px;
+    transition: .4s;
+}
+#price-plan .ticket-item p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 400;
+    transition: .4s;
+}
+#price-plan .ticket-item h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    color: #444444;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    transition: .4s;
+}
+#price-plan .ticket-item ul{
+    padding: 0;
+}
+#price-plan .ticket-item ul li{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #666666;
+    font-weight: 400;
+    margin-top: 10px;
+    transition: .4s;
+}
+#price-plan .ticket-item .buttons a{
+    margin-left: 0;
+}
+#price-plan .ticket-item:hover{
+    background: #09015f;
+}
+#price-plan .ticket-item:hover h4{
+    color: #ffffff;
+}
+#price-plan .ticket-item:hover p{
+    color: #ffffff;
+}
+#price-plan .ticket-item:hover h3{
+    color: #ffffff;
+}
+#price-plan .ticket-item:hover ul li{
+    color: #ffffff;
+}
+/* =============================
+    Price plan part Css end
+============================== */
+
+
+/* =============================
+    Gallery part Css start
+============================== */
+#gallery-part{
+    background: #f5f5f5;
+    padding: 120px 0;
+}
+#gallery-part .gallery-slider{
+    margin-top: 40px;
+}
+#gallery-part .gallery-slider .img{
+    position: relative;
+}
+#gallery-part .gallery-slider .img img{
+    width: 100%;
+}
+#gallery-part .gallery-slider .img .gallery-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 57%;
+    background: rgb(255, 255, 255, 0.8);
+    text-align: center;
+    opacity: 0;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+}
+#gallery-part .gallery-slider .img .gallery-overlay h5{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    font-weight: 600;
+    padding: 10px;
+}
+#gallery-part .gallery-slider .img.slick-center .gallery-overlay{
+    opacity: 1;
+}
+/* =============================
+    Gallery part Css end
+============================== */
+
+
+
+/* =============================
+    Entry part Css start
+============================== */
+#entry-part{
+    background: #ffffff;
+    padding: 120px 0;
+}
+#entry-part .entry-item{
+    background: #f5f5f5;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.24);
+}
+#entry-part .entry-item .entry-img img{
+    width: 100%;
+}
+#entry-part .entry-item .entry-form{
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+#entry-part .entry-item .entry-form h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    color: #17b978;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#entry-part .entry-item .entry-form h3 span{
+    display: block;
+}
+#entry-part .entry-item .entry-form form .name{
+    width: 48%;
+}
+#entry-part .entry-item .entry-form form .lname{
+    margin-left: 19px;
+}
+#entry-part .entry-item .entry-form form input{
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 8px;
+}
+#entry-part .entry-item .entry-form form input::placeholder{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+}
+#entry-part .entry-item .entry-form form select{
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 10px;
+}
+#entry-part .entry-item .entry-form form .payment{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+#entry-part .entry-item .entry-form form .payment .text{
+    width: 40%;
+}
+#entry-part .entry-item .entry-form form .payment .text h4{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 26px;
+    color: #777777;
+    font-weight: 600;
+}
+#entry-part .entry-item .entry-form form .payment .card-img{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+#entry-part .entry-item .entry-form form .payment .card-img .img{
+    text-align: right;
+}
+#entry-part .entry-item .entry-form form .payment .card-img .img img{
+    width: 75%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.24);
+}
+#entry-part .entry-item .entry-form form button{
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    background: #ff5200;
+    border: 1px solid #ff5200;
+    border-radius: 5px;
+    padding: 10px 18px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    transition: .4s;
+}
+#entry-part .entry-item .entry-form form button:hover{
+    box-shadow: 0 0 14px #ff5200;
+}
+/* =============================
+    Entry part Css end
+============================== */
+
+
+/* =============================
+    Review part Css start
+============================== */
+#review-part{
+    background: url(../images/review-bg.png) no-repeat center;
+    background-size: cover;
+    padding:80px 0 120px 0;
+}
+#review-part .review-slider{
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.24);
+}
+#review-part .review-slider .slider-item{
+    background: #ffffff;
+    display: flex;
+}
+#review-part .review-slider .slider-item .img{
+    width: 37%;
+}
+#review-part .review-slider .slider-item .detail-review{
+    width: 59%;
+    padding: 10px;
+}
+#review-part .review-slider .slider-item .detail-review p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #777777;
+    font-weight: 400;
+    line-height: 26px;
+    width: 335px;
+    text-align: justify;
+}
+#review-part .review-slider .slider-item .detail-review .rating span{
+    display: inline-block;
+    color: #fb3640;
+    margin-top: 15px;
+}
+#review-part .review-slider .slider-item .detail-review h5{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    color: #444444;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#review-part .review-slider .slider-item .detail-review h6{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #fb3640;
+    font-weight: 500;
+}
+#review-part .review-slider .nxt{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fb3640;
+    text-align: center;
+    line-height: 40px;
+    padding: 8px;
+    color: #fb3640;
+    position: absolute;
+    top: 120%;
+    right: 42%;
+    transform: translate(-50%,-50%);
+    transition: .4s;
+}
+#review-part .review-slider .prv{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fb3640;
+    text-align: center;
+    line-height: 40px;
+    padding: 8px;
+    color: #fb3640;
+    position: absolute;
+    top: 120%;
+    left: 46%;
+    transform: translate(-50%,-50%);
+    transition: .4s;
+}
+#review-part .review-slider .nxt:hover{
+    background: #fb3640;
+    border: 1px solid #fb3640;
+    color: #ffffff;
+}
+#review-part .review-slider .prv:hover{
+    background: #fb3640;
+    border: 1px solid #fb3640;
+    color: #ffffff;
+}
+/* =============================
+    Review part Css end
+============================== */
+
+
+/* =============================
+    Sponsor part Css start
+============================== */
+#sponsor-part{
+    background: #ffffff;
+    padding: 100px 0;
+}
+#sponsor-part .left-part .title{
+    text-align: left;
+}
+#sponsor-part .left-part .text h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 35px;
+    color: #17b978;
+    font-weight: 600;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+#sponsor-part .left-part .text h3 span{
+    color: #fb3640;
+}
+#sponsor-part .left-part .text p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    text-align: justify;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#sponsor-part .left-part .text .buttons{
+    text-align: left;
+}
+#sponsor-part .left-part .text .buttons a{
+    margin-left: 0;
+}
+#sponsor-part .right-part .sponsor-img{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    transition: .4s;
+}
+#sponsor-part .right-part .sponsor-img img{
+    width: 90%;
+    margin-top: 32px;
+    margin-left: 10px;
+}
+#sponsor-part .right-part .margin-top{
+    margin-top: 25px;
+}
+#sponsor-part .right-part .sponsor-img:hover{
+    box-shadow: 0 0 10px rgb(222, 222, 222);
+}
+#sponsor-part .small-item{
+    display: none;
+}
+/* =============================
+    Sponsor part Css end
+============================== */
+
+/* -------Go top css start------- */
+.go-top{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #ff5200;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 100px;
+    right: 80px;
+    display: none;
+}
+.go-top span{
+    color: #ffffff;
+    font-size: 30px;
+}
+/* -------Go top css end------- */
+
+
+/* =============================
+    Footer part Css start
+============================== */
+#footer-part{
+    background: #170f6d;
+    padding-top: 100px;
+}
+#footer-part .logo img{
+    width: 100%;
+}
+#footer-part .logo p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 10px;
+    width: 170px;
+}
+#footer-part .newsletter{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+#footer-part .newsletter h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 600;
+}
+#footer-part .newsletter form input{
+    width: 80%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    font-weight: 400;
+    border: 1px solid #170f6d;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 8px;
+    outline: 0;
+}
+#footer-part .newsletter form input::placeholder{
+    color: #777777;
+}
+#footer-part .newsletter form button{
+    position: absolute;
+    top: 54px;
+    right: 75px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    background: #ff5200;
+    border: 1px solid #ff5200;
+    border-radius: 5px;
+    padding: 8.5px 10px;
+    text-transform: uppercase;
+}
+#footer-part .newsletter .icons{
+    margin-top: 50px;
+}
+#footer-part .newsletter .icons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ff5200;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: .4s;
+}
+#footer-part .quick-links ul li{
+    padding: 8px;
+}
+#footer-part .quick-links ul li a{
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    transition: .4s;
+}
+#footer-part ul li a:hover{
+    color: #ff5200;
+}
+#footer-part .newsletter .icons a:hover{
+    background: #ff5200;
+    border: 1px solid #ff5200;
+}
+#footer-part .copy-part{
+    border-top: 1px solid #632002;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+#footer-part .copy-part p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+/* =============================
+    Footer part Css end
+============================== */

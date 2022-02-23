@@ -1,0 +1,2650 @@
+@media (min-width:320px) and (max-width:575px){
+
+    .buttons{
+        margin-top: 25px;
+    }
+
+    .buttons a{
+        font-size: 14px;
+        padding: 7px;
+    }
+    .buttons a:last-child{
+        margin-left: 8px;
+    }
+    .title h2{
+        font-size: 35px;
+    }
+    .title p{
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    #preloader .loading-text span{
+        font-size: 30px;
+    }
+
+    /* ==============================
+            Nav bar part start
+    ============================== */
+    .nav-bar{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 999;
+    }
+    .fixedmenu{
+        background: #170f6d;
+    }
+    .mobile-nav .logo img{
+        width: 100%;
+    }
+    .mobile-nav .nav-item{
+        text-align: right;
+    }
+    .mobile-nav .nav-item .bar-icon span{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #ffffff;
+        text-align: center;
+        line-height: 32px;
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 3px;
+        cursor: pointer;
+    }
+    .mobile-nav .nav-item .nav-overlay{
+        position: fixed;
+        top: 0;
+        left: -575px;
+        width: 100%;
+        height: 100vh;
+        background: #170f6d;
+        transition: .4s;
+        z-index: 999;
+    }
+    .mobile-nav .nav-item .nav-overlay ul{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .mobile-nav .nav-item .nav-overlay ul .border-none{
+        border-bottom: 0;
+    }
+    .mobile-nav .nav-item .nav-overlay ul li{
+        padding: 10px 0;
+        border-bottom: 1px solid #3f2829;
+    }
+    .mobile-nav .nav-item .nav-overlay ul li a{
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 400;
+        transition: .4s;
+    }
+    .mobile-nav .nav-item .nav-overlay .social-icons{
+        display: none;
+    }
+    .accordion-button{
+        background: none;
+    }
+    .accordion-flush .accordion-item .accordion-button{
+        background: none;
+    }
+    .accordion-button::after{
+        display: none;
+    }
+    .accordion-button li{
+        margin-left: 41px;
+        margin-top: -20px;
+    }
+    .accordion-button li a{
+        margin-left: 35px !important;
+    }
+    .accordion-button li a svg{
+        margin-left: 8px;
+    }
+    .accordion-button:not(.collapsed){
+        background: #170f6d;
+    }
+    .accordion-button:focus{
+        border: none !important;
+        box-shadow: none;
+    }
+    .accordion-body{
+        background: #170f6d;
+        padding: 0;
+    }
+    .accordion-header{
+        margin-bottom: -7px;
+    }
+    .accordion-body ul{
+        border-top: 1px solid #3f2829;
+        margin-top: 0 !important;
+    }
+    .accordion-body .drop-down li a{
+        color: #ffffff !important;
+        transition: .4s;
+    }
+    .accordion-item{
+        border: none;
+        background: none;
+    }
+    .accordion-button:not(.collapsed)::after{
+        color: #ffffff;
+    }
+    .mobile-nav .nav-item .nav-overlay .top{
+        border-bottom: 1px solid #fb3640;
+        padding-bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-nav .nav-item .nav-overlay .top .cross{
+        display: inline-block;
+        margin-left: 20px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        line-height: 25px;
+        text-align: center;
+        font-size: 24px;
+        color: #fb3640;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+    .mobile-nav .nav-item .nav-overlay .top .ticket-button{
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    .mobile-nav .nav-item .nav-overlay .top .ticket-button a{
+        display: inline-block;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 600;
+        background: #fb3640;
+        border: 1px solid #fb3640;
+        border-radius: 5px;
+        padding: 5px 13px;
+        text-transform: uppercase;
+        -webkit-box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+        -moz-box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+        box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+    }
+    .mobile-nav .nav-item .nav-overlay ul li:hover a{
+        color: #fb3640;
+    }
+    .accordion-button li:hover a{
+        color: #fb3640;
+    }
+    .accordion-body .drop-down li a:hover{
+        color: #fb3640 !important;
+    }
+    /* ==============================
+            Nav bar part end
+    ============================== */
+
+
+
+    /* ==============================
+           Banner part start
+    ============================== */
+    #banner-part .banner-overlay{
+        padding: 120px 0 80px 0;
+    }
+    #banner-part .banner-overlay .banner-slider .banner-text h1{
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    #banner-part .banner-overlay .banner-slider .banner-text span{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+    #banner-part .banner-overlay p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 7px;
+        width: 90%;
+    }
+    #banner-part .banner-overlay .social-part{
+        display: none;
+    }
+    #banner-part .banner-overlay .nxt{
+        display: none;
+    }
+    #banner-part .banner-overlay .prv{
+        display: none;
+    }
+
+    /* ==============================
+           Banner part end
+    ============================== */
+
+
+    /* =============================
+        Counter part Css start
+    ============================== */
+    #counter-part{
+        padding: 10px 0;
+    }
+    #counter-part .main-item .time-box{
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    #counter-part .main-item .time-box h5{
+        font-size: 13px;
+    }
+    /* =============================
+        Counter part Css end
+    ============================== */
+
+
+    /* =============================
+        Blog banner part Css start
+    ============================== */
+    #blog-banner .blog-overlay{
+        padding: 80px 0;
+    }
+    #blog-banner .blog-overlay h1{
+        font-size: 45px;
+    }
+    /* =============================
+        Blog banner part Css end
+    ============================== */
+
+
+    /* =============================
+        Blog post part Css start
+    ============================== */
+    #blog-post{
+        padding: 80px 0;
+    }
+    #blog-post .blog-img{
+        margin-top: 20px;
+    }
+    #blog-post .blog-text h3{
+        font-size: 22px;
+    }
+    #blog-post .blog-text p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #blog-post .blog-text .max-para{
+        display: none;
+    }
+    #blog-post .blog-text .button{
+        display: none;
+    }
+    /* =============================
+        Blog post part Css end
+    ============================== */
+
+
+    /* =============================
+        Contact banner part Css start
+    ============================== */
+    #contact-banner .contact-overlay{
+        padding: 80px 0;
+    }
+    #contact-banner .contact-overlay h1{
+        font-size: 45px;
+    }
+    /* =============================
+        Contact banner part Css end
+    ============================== */
+
+
+    /* =============================
+        Contact part Css start
+    ============================== */
+    #contact-part{
+        padding-top: 80px;
+    }
+
+    #contact-part form input{
+        width: 100%;
+    }
+    #contact-part form .mar-left{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    #contact-part form textarea{
+        width: 100%;
+        padding: 8px 10px 30px 10px;
+    }
+    /* =============================
+        Contact part Css end
+    ============================== */
+
+
+    /* =============================
+        About part Css start
+    ============================== */
+    #about-part{
+        padding: 80px 0;
+    }
+    #about-part .text h3{
+        font-size: 22px;
+        text-align: justify;
+    }
+    #about-part .text p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+    #about-part .text .buttons .play{
+        padding: 9px 11px;
+        margin-left: 20px;
+    }
+    #about-part .img{
+        margin-top: 25px;
+    }
+    /* =============================
+        About part Css end
+    ============================== */
+
+
+    /* =============================
+            Events part Css start
+    ============================== */
+    #events-part{
+        padding: 80px 0;
+    }
+    #events-part .left .item h4{
+        font-size: 24px;
+    }
+    #events-part .left .item h4 span{
+        top: 6px;
+    }
+    #events-part .left .item p{
+        font-size: 14px;
+        width: 100%;
+    }
+    #events-part .left .item{
+        margin-top: 25px;
+    }
+    #events-part .right{
+        margin-top: 30px;
+    }
+    #events-part .right .text h3{
+        font-size: 22px;
+        text-align: justify;
+        margin-top: 8px;
+    }
+    #events-part .right .text p{
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+        text-align: justify;
+        margin-top: 15px;
+    }
+    /* =============================
+            Events part Css end
+    ============================== */
+
+
+    /* =============================
+       Another-counter part Css start
+    ============================== */
+    #anothercounter-part .overlay .counter{
+        font-size: 40px;
+    }
+    #anothercounter-part .overlay .box1{
+        margin-left: -45px;
+    }
+    #anothercounter-part .overlay .box2{
+        margin-left: 42px;
+    }
+    #anothercounter-part .overlay .box3{
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    #anothercounter-part .overlay .box4{
+        margin-top: 50px;
+        margin-left: 31px;
+    }
+    #anothercounter-part .overlay span{
+        font-size: 35px;
+        margin-top: -2px;
+        margin-left: -27px;
+    }
+    #anothercounter-part .overlay .sign2{
+        margin-top: -2px;
+        margin-left: -103px;
+    }
+    #anothercounter-part .overlay .sign3{
+        margin-left: -103px;
+    }
+    #anothercounter-part .overlay .sign4{
+        margin-top: -2px;
+        margin-left: -80px;
+    }
+    #anothercounter-part .overlay .down-text{
+        font-size: 20px;
+        margin-top: 52px;
+    }
+    #anothercounter-part .overlay .down-text1{
+        margin-left: -114px;
+    }
+    #anothercounter-part .overlay .down-text3{
+        margin-left: -87px;
+    }
+    #anothercounter-part .overlay .down-text4{
+        margin-left: -105px;
+    }
+    /* =============================
+       Another-counter part Css end
+    ============================== */
+    
+
+
+    /* =============================
+            Speaker part Css start
+    ============================== */
+    #speaker-part{
+        padding: 80px 0;
+    }#speaker-part .title h3{
+        font-size: 22px;
+        margin-top: 8px;
+        text-align: justify;
+    }
+    #speaker-part .text-part .text-slider .text{
+        margin-top: 15px;
+    }
+    #speaker-part .text-part .text-slider .text p{
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+        text-align: justify;
+    }
+    #speaker-part .img-slider{
+        margin-top: 50px;
+    }
+    #speaker-part .img-slider .img{
+        margin-top: 20px;
+    }
+    #speaker-part .img-slider .img img{
+        width: 100%;
+    }
+    #speaker-part .img-slider .img .details{
+        width: 95%;
+        left: 8px;
+    }
+    #speaker-part .text-part .text-slider .text .spece-time span{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #speaker-part .nxt{
+        bottom: -25%;
+        left: 17%;
+    }
+    #speaker-part .prv{
+        bottom: -25%;
+        left: 5%;
+    }
+
+    /* =============================
+            Speaker part Css end
+    ============================== */
+
+
+    /* =============================
+        Schedule part Css end
+    ============================== */
+    #schedule-part .boxscroll .event-item{
+        flex-direction: column;
+    }
+    #schedule-part .boxscroll .event-item .img{
+        width: 54%;
+    }
+    #schedule-part .boxscroll .event-item .details{
+        width: 100%;
+    }
+    #schedule-part .boxscroll .event-item .details span{
+        font-size: 22px;
+        top: 167px;
+    }
+    #schedule-part .boxscroll .event-item .details span:nth-child(2){
+        font-size: 25px;
+        top: 107px;
+    }
+    #schedule-part .boxscroll .event-item .button{
+        width: 100%;
+    }
+    #schedule-part .boxscroll .event-item .button .buttons a{
+        padding: 10px 70px;
+    }
+
+    /* =============================
+        Schedule part Css end
+    ============================== */
+
+
+    /* =============================
+        Price plan part Css end
+    ============================== */
+    #price-plan{
+        padding: 80px 0;
+    }
+
+    /* =============================
+        Price plan part Css end
+    ============================== */
+
+
+
+    /* =============================
+        Gallery part Css start
+    ============================== */
+    #gallery-part{
+        padding: 80px 0;
+    }
+    #gallery-part .gallery-slider .img .gallery-overlay{
+        width: 65%;
+    }
+    /* =============================
+        Gallery part Css end
+    ============================== */
+
+
+    /* =============================
+        Entry part Css start
+    ============================== */
+    #entry-part{
+        padding: 80px 0;
+    }
+    #entry-part .entry-item .entry-form h3{
+        font-size: 22px;
+    }
+    #entry-part .entry-item .entry-form form input{
+        padding: 5px;
+    }
+    #entry-part .entry-item .entry-form form .name{
+        width: 100%;
+    }
+    #entry-part .entry-item .entry-form form .lname{
+        margin-left: 0;
+    }
+    #entry-part .entry-item .entry-form form select{
+        padding: 8px;
+    }
+    #entry-part .entry-item .entry-form form .payment{
+        display: initial;
+        margin-top: 30px !important;
+    }
+    #entry-part .entry-item .entry-form form .payment .text{
+        width: 100%;
+    }
+    #entry-part .entry-item .entry-form form .payment .text h4{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    #entry-part .entry-item .entry-form form .payment .card-img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #entry-part .entry-item .entry-form form .payment .card-img .img{
+        text-align: left;
+    }
+    #entry-part .entry-item .entry-form form button{
+        font-size: 14px;
+    }
+
+    /* =============================
+        Entry part Css end
+    ============================== */
+
+
+    /* =============================
+            Review part Css start
+    ============================== */
+    #review-part{
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    #review-part .review-slider .slider-item{
+        display: initial;
+    }
+    #review-part .review-slider .slider-item .img{
+        width: 100%;
+    }
+    #review-part .review-slider .slider-item .img img{
+        width: 100%;
+    }
+    #review-part .review-slider .slider-item .detail-review{
+        width: 100%;
+    }
+    #review-part .review-slider .slider-item .detail-review p{
+        width: 100%;
+        font-size: 16px;
+    }
+    #review-part .review-slider .nxt{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 107%;
+        right: 30%;
+    }
+    #review-part .review-slider .prv{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 107%;
+        left: 40%;
+    }
+
+    /* =============================
+            Review part Css end
+    ============================== */
+
+
+    /* =============================
+            Sponsor part Css start
+    ============================== */
+    #sponsor-part{
+        padding: 80px 0;
+    }
+    #sponsor-part .left-part .text h3{
+        font-size: 22px;
+        margin-top: 8px;
+    }
+    #sponsor-part .left-part .text p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 15px;
+        width: 100%;
+        text-align: justify;
+    }
+    #sponsor-part .large-item{
+        display: none;
+    }
+    #sponsor-part .small-item{
+        display: block;
+        margin-top: 40px;
+    }
+    #sponsor-part .right-part .margin-top{
+        margin-top: 7px;
+    }
+    #sponsor-part .right-part .sponsor-img{
+        width: 145px;
+        height: 75px;
+    }
+    #sponsor-part .right-part .sponsor-img img{
+        width: 85%;
+        margin-top: 25px;
+    }
+    #sponsor-part .right-part .margin-right{
+        margin-left: -7px;
+    }
+    /* =============================
+            Sponsor part Css end
+    ============================== */
+
+
+    /* =============================
+            Footer part Css start
+    ============================== */
+    #footer-part{
+        padding-top: 80px;
+    }
+    #footer-part .logo img{
+        width: 60%;
+    }
+    #footer-part .logo p{
+        width: 100%;
+    }
+    #footer-part .newsletter{
+        margin-top: 30px;
+    }
+    #footer-part .newsletter h3{
+        font-size: 22px;
+    }
+    #footer-part .newsletter form input{
+        width: 100%;
+        font-size: 16px;
+        padding: 8px;
+        margin-top: 15px;
+    }
+    #footer-part .newsletter form button{
+        top: 42px;
+        right: 1px;
+        padding: 7px 10px;
+    }
+    #footer-part .newsletter .icons a{
+        margin: 0 7px;
+    }
+    #footer-part .quick-links{
+        margin-top: 20px;
+    }
+    #footer-part .quick-links ul li{
+        display: inline-block;
+    }
+    #footer-part .copy-part p{
+        font-size: 14px;
+    }
+    /* =============================
+            Footer part Css end
+    ============================== */
+
+
+    .go-top{
+        opacity: 0;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .buttons{
+        margin-top: 25px;
+    }
+
+    .buttons a{
+        font-size: 16px;
+        padding: 10px 18;
+    }
+    .buttons a:last-child{
+        margin-left: 8px;
+    }
+    .title h2{
+        font-size: 40px;
+    }
+    .title p{
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    #preloader .loading-text span{
+        font-size: 30px;
+    }
+
+    /* ==============================
+            Nav bar part start
+    ============================== */
+    .nav-bar{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 999;
+    }
+    .fixedmenu{
+        background: #170f6d;
+    }
+    .mobile-nav .logo img{
+        width: 70%;
+    }
+    .mobile-nav .nav-item{
+        text-align: right;
+    }
+    .mobile-nav .nav-item .bar-icon span{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #ffffff;
+        text-align: center;
+        line-height: 32px;
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 9px;
+        cursor: pointer;
+    }
+    .mobile-nav .nav-item .nav-overlay{
+        position: fixed;
+        top: 0;
+        left: -767px;
+        width: 100%;
+        height: 100vh;
+        background: #170f6d;
+        transition: .4s;
+        z-index: 999;
+    }
+    .mobile-nav .nav-item .nav-overlay ul{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .mobile-nav .nav-item .nav-overlay ul .border-none{
+        border-bottom: 0;
+        margin-bottom: 50px;
+    }
+    .mobile-nav .nav-item .nav-overlay ul li{
+        padding: 10px 0;
+        border-bottom: 1px solid #3f2829;
+    }
+    .mobile-nav .nav-item .nav-overlay ul li a{
+        font-family: 'PT Sans', sans-serif;
+        font-size: 24px;
+        color: #ffffff;
+        margin-left: 30px;
+        font-weight: 400;
+        transition: .4s;
+    }
+    .accordion-button{
+        background: none;
+    }
+    .accordion-flush .accordion-item .accordion-button{
+        background: none;
+    }
+    .accordion-button::after{
+        display: none;
+    }
+    .accordion-button li{
+        margin-left: -50px;
+        margin-top: -220px;
+    }
+    .accordion-button li a{
+        margin-left: 130px !important;
+    }
+    .accordion-button li a svg{
+        margin-left: 8px;
+    }
+    .accordion-button:not(.collapsed){
+        background: #170f6d;
+    }
+    .accordion-button:focus{
+        border: none !important;
+        box-shadow: none;
+    }
+    .accordion-body{
+        background: #170f6d;
+        padding: 0;
+    }
+    .accordion-header{
+        margin-bottom: -115px;
+    }
+    .accordion-body ul{
+        border-top: 1px solid #3f2829;
+        margin-top: 0 !important;
+    }
+    .accordion-body .drop-down li a{
+        color: #ffffff !important;
+        transition: .4s;
+    }
+    .accordion-item{
+        border: none;
+        background: none;
+    }
+    .accordion-button:not(.collapsed)::after{
+        color: #ffffff;
+    }
+    .mobile-nav .nav-item .nav-overlay .top{
+        border-bottom: 1px solid #fb3640;
+        padding-bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-nav .social-icons{
+        display: none;
+    }
+    .mobile-nav .nav-item .nav-overlay .top .cross{
+        display: inline-block;
+        margin-left: 20px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        line-height: 25px;
+        text-align: center;
+        font-size: 24px;
+        color: #fb3640;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+    .mobile-nav .nav-item .nav-overlay .top .ticket-button{
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    .mobile-nav .nav-item .nav-overlay .top .ticket-button a{
+        display: inline-block;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 600;
+        background: #fb3640;
+        border: 1px solid #fb3640;
+        border-radius: 5px;
+        padding: 5px 13px;
+        text-transform: uppercase;
+        -webkit-box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+        -moz-box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+        box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+    }
+    .mobile-nav .nav-item .nav-overlay ul li:hover a{
+        color: #fb3640;
+    }
+    .accordion-button li:hover a{
+        color: #fb3640;
+    }
+    .accordion-body .drop-down li a:hover{
+        color: #fb3640 !important;
+    }
+    /* ==============================
+            Nav bar part end
+    ============================== */
+
+
+    /* ==============================
+           Banner part start
+    ============================== */
+    #banner-part .banner-overlay{
+        padding: 150px 0 100px 0;
+    }
+    #banner-part .banner-overlay .banner-slider .banner-text h1{
+        font-size: 55px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    #banner-part .banner-overlay .banner-slider .banner-text span{
+        font-size: 50px;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+    #banner-part .banner-overlay p{
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 7px;
+        width: 90%;
+    }
+    #banner-part .banner-overlay .social-part{
+        display: block;
+        top: 40%;
+    }
+    #banner-part .banner-overlay .social-part .icons a{
+        padding: 2px 10px;
+    }
+    #banner-part .banner-overlay .nxt{
+        display: block;
+        top: 183%;
+        right: -8%;
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+    }
+    #banner-part .banner-overlay .prv{
+        display: block;
+        top: 211%;
+        right: -8%;
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+    }
+
+    /* ==============================
+           Banner part end
+    ============================== */
+
+
+    /* =============================
+        Blog banner part Css start
+    ============================== */
+    #blog-banner .blog-overlay{
+        padding: 80px 0;
+    }
+    #blog-banner .blog-overlay h1{
+        font-size: 50px;
+    }
+    /* =============================
+        Blog banner part Css end
+    ============================== */
+
+
+    /* =============================
+        Blog post part Css start
+    ============================== */
+    #blog-post{
+        padding: 80px 0;
+    }
+    #blog-post .blog-img{
+        margin-top: 20px;
+    }
+    #blog-post .blog-text h3{
+        font-size: 30px;
+    }
+    #blog-post .blog-text p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    #blog-post .blog-text .max-para{
+        display: none;
+    }
+    #blog-post .blog-text .button{
+        display: none;
+    }
+    /* =============================
+        Blog post part Css end
+    ============================== */
+
+
+    /* =============================
+        Contact banner part Css start
+    ============================== */
+    #contact-banner .contact-overlay{
+        padding: 80px 0;
+    }
+    #contact-banner .contact-overlay h1{
+        font-size: 50px;
+    }
+    /* =============================
+        Contact banner part Css end
+    ============================== */
+
+
+    /* =============================
+        Contact part Css start
+    ============================== */
+    #contact-part{
+        padding-top: 80px;
+    }
+    #contact-part form textarea{
+        width: 95%;
+    }
+    /* =============================
+        Contact part Css end
+    ============================== */
+
+
+    /* ==============================
+           About part start
+    ============================== */
+    #about-part{
+        padding: 100px 0;
+    }
+    #about-part .img{
+        margin-top: 50px;
+    }
+    #about-part .top{
+        margin-top: 25px;
+    }
+    #about-part .text h3{
+        font-size: 28px;
+    }
+
+    /* ==============================
+           About part end
+    ============================== */
+
+
+    /* ==============================
+           Events part start
+    ============================== */
+    #events-part{
+        padding: 100px 0;
+    }
+    #events-part .left .item h4{
+        font-size: 24px;
+    }
+    #events-part .left .item h4 span{
+        font-size: 28px;
+    }
+    #events-part .left .item p{
+        width: 100%;
+        text-align: justify;
+    }
+    #events-part .right{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    #events-part .right .text h3{
+        font-size: 28px;
+    }
+    #events-part .right .text p{
+        text-align: justify;
+    }
+    /* ==============================
+           Events part end
+    ============================== */
+
+
+    /* ==============================
+        Another counter part start
+    ============================== */
+    #anothercounter-part .overlay .box1{
+        margin-left: 1px;
+    }
+    #anothercounter-part .overlay .down-text1{
+        margin-left: -144px !important;
+    }
+    #anothercounter-part .overlay .box2{
+        margin-left: 100px;
+    }
+    #anothercounter-part .overlay .down-text2{
+        margin-left: -82px !important;
+    }
+    #anothercounter-part .overlay .box3{
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+    #anothercounter-part .overlay .sign3{
+        margin-left: -90px;
+        margin-left: -93px;
+    }
+    #anothercounter-part .overlay .box4{
+        margin-top: 50px;
+        margin-left: 105px;
+    }
+    #anothercounter-part .overlay .down-text4{
+        margin-left: -120px !important;
+    }
+    #anothercounter-part .overlay .sign4{
+        margin-left: -62px;
+    }
+    #anothercounter-part .overlay .down-text{
+        margin-left: -88px;
+    }
+
+    /* ==============================
+        Another counter part end
+    ============================== */
+
+
+    /* ==============================
+            Speaker part start
+    ============================== */
+    #speaker-part{
+        padding: 100px 0;
+    }
+    #speaker-part .title h3{
+        font-size: 28px;
+    }
+    #speaker-part .text-part .text-slider .text{
+        padding-left: 0;
+    }
+    #speaker-part .text-part .text-slider .text p{
+        width: 100%;
+        text-align: justify;
+    }
+    #speaker-part .img-slider{
+        margin-top: 50px;
+    }
+    #speaker-part .img-slider .img{
+        margin-top: 20px;
+    }
+    #speaker-part .img-slider .img img{
+        margin-left: 6px;
+    }
+    #speaker-part .img-slider .img .details{
+        left: 13px;
+    }
+
+    /* ==============================
+            Speaker part end
+    ============================== */
+
+
+    /* =============================
+        Schedule part Css end
+    ============================== */
+    #schedule-part{
+        padding: 100px 0;
+    }
+    #schedule-part .boxscroll .event-item{
+        flex-wrap: wrap;
+    }
+    #schedule-part .boxscroll .event-item .img{
+        width: 30%;
+    }
+    #schedule-part .boxscroll .event-item .details{
+        width: 67%;
+    }
+    #schedule-part .boxscroll .event-item .details h3{
+        font-size: 28px;
+    }
+    #schedule-part .boxscroll .event-item .details span{
+        font-size: 18px;
+        top: 148px;
+    }
+    #schedule-part .boxscroll .event-item .details span:nth-child(2){
+        font-size: 20px;
+        top: 96px;
+    }
+    #schedule-part .boxscroll .event-item .details .extra-top{
+        top: 120px !important;
+    }
+    #schedule-part .boxscroll .event-item .details .extra-top:nth-child(2){
+        top: 65px !important;
+    }
+    #schedule-part .boxscroll .event-item .details p{
+        margin-left: 25px;
+    }
+    #schedule-part .boxscroll .event-item .button{
+        width: 100%;
+    }
+    #schedule-part .boxscroll .event-item .button .buttons{
+        margin-top: 35px;
+    }
+    #schedule-part .boxscroll .event-item .button .buttons a{
+        display: block;
+        padding: 10px 70px;
+    }
+
+    /* =============================
+        Schedule part Css end
+    ============================== */
+
+
+    /* =============================
+        Price plan part Css start
+    ============================== */
+    #price-plan{
+        padding: 100px 0;
+    }
+    #price-plan .pl-lose{
+        padding-right: 0;
+    }
+    #price-plan .ticket-item{
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    #price-plan .ticket-item h4{
+        font-size: 18px;
+        margin-left: 0;
+    }
+    #price-plan .ticket-item p{
+        font-size: 14px;
+        margin-left: 0;
+    }
+    #price-plan .ticket-item h3{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    #price-plan .ticket-item ul{
+        padding-left: 0 !important;
+    }
+    #price-plan .ticket-item ul li{
+        font-size: 14px;
+    }
+    #price-plan .ticket-item .buttons a{
+        font-size: 14px;
+        margin-left: -13px !important;
+    }
+    /* =============================
+        Price plan part Css end
+    ============================== */
+
+
+    /* =============================
+        Gallery part Css start
+    ============================== */
+    #gallery-part{
+        padding: 100px 0;
+    }
+    #gallery-part .gallery-slider .img .gallery-overlay h5{
+        padding: 7px;
+    }
+    /* =============================
+        Gallery part Css end
+    ============================== */
+
+
+    /* =============================
+        Entry part Css start
+    ============================== */
+    #entry-part{
+        padding: 100px 0;
+    }
+    #entry-part .entry-item .entry-form h3{
+        font-size: 27px;
+    }
+    #entry-part .entry-item .entry-form h3 span{
+        display: inline-block;
+    }
+    #entry-part .entry-item .entry-form form .lname{
+        margin-left: 14px;
+    }
+    #entry-part .entry-item .entry-form form .payment .text h4{
+        font-size: 24px;
+    }
+    /* =============================
+        Entry part Css end
+    ============================== */
+
+    /* =============================
+            Review part Css start
+    ============================== */
+    #review-part{
+        padding: 100px 0;
+    }
+    #review-part .review-slider .slider-item .img{
+        width: 100%;
+    }
+    #review-part .review-slider .slider-item .img img{
+        width: 100%;
+    }
+    #review-part .review-slider .slider-item .detail-review{
+        width: 100%;
+    }
+    #review-part .review-slider .slider-item .detail-review p{
+        width: 100%;
+        font-size: 16px;
+    }
+    #review-part .review-slider .nxt{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 117%;
+        right: 30%;
+    }
+    #review-part .review-slider .prv{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 117%;
+        left: 40%;
+    }
+
+    /* =============================
+            Review part Css end
+    ============================== */
+
+
+    /* =============================
+            Sponsor part Css start
+    ============================== */
+    #sponsor-part{
+        padding: 100px 0;
+    }
+    #sponsor-part .left-part .text h3{
+        font-size: 28px;
+    }
+    #sponsor-part .left-part .text p{
+        text-align: justify;
+    }
+    #sponsor-part .right-part{
+        margin-top: 40px;
+    }
+    #sponsor-part .right-part .sponsor-img{
+        width: 160px;
+        height: 90px;
+    }
+    #sponsor-part .right-part .sponsor-img img{
+        width: 80%;
+        margin-left: 15px;
+    }
+    /* =============================
+            Sponsor part Css end
+    ============================== */
+
+
+    /* =============================
+            Footer part Css start
+    ============================== */
+    #footer-part{
+        padding-top: 100px;
+    }
+    #footer-part .newsletter{
+        margin-top: 0;
+        position: relative;
+    }
+    #footer-part .newsletter h3{
+        font-size: 22px;
+    }
+    #footer-part .newsletter form button{
+        top: 48px;
+        right: 35px;
+    }
+    #footer-part .newsletter .icons{
+        position: absolute;
+        top: 134px;
+        left: -92px;
+    }
+    #footer-part .quick-links{
+        margin-top: 125px;
+        margin-left: 24px;
+    }
+    #footer-part .quick-links ul li{
+        display: inline-block;
+    }
+
+
+
+    /* =============================
+            Footer part Css end
+    ============================== */
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    #preloader .loading-text span{
+        font-size: 45px;
+    }
+
+    /* ==============================
+            Nav bar part start
+    ============================== */
+    .nav-bar{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 999;
+    }
+    .fixedmenu{
+        background: #170f6d;
+    }
+    .mobile-nav .logo img{
+        width: 70%;
+    }
+    .mobile-nav .nav-item{
+        text-align: right;
+    }
+    .mobile-nav .nav-item .bar-icon span{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #ffffff;
+        text-align: center;
+        line-height: 32px;
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .mobile-nav .nav-item .nav-overlay{
+        position: fixed;
+        top: 0;
+        left: -991px;
+        width: 100%;
+        height: 100vh;
+        background: #170f6d;
+        transition: .4s;
+        z-index: 999;
+    }
+    .mobile-nav .nav-item .nav-overlay ul{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .mobile-nav .nav-item .nav-overlay ul .border-none{
+        border-bottom: 0;
+        margin-bottom: 50px;
+    }
+    .mobile-nav .nav-item .nav-overlay ul li{
+        padding: 20px 0;
+        border-bottom: 1px solid #3f2829;
+    }
+    .mobile-nav .nav-item .nav-overlay ul li a{
+        font-family: 'PT Sans', sans-serif;
+        font-size: 24px;
+        color: #ffffff;
+        margin-left: 30px;
+        font-weight: 400;
+        transition: .4s;
+    }
+    .accordion-button{
+        background: none;
+    }
+    .accordion-flush .accordion-item .accordion-button{
+        background: none;
+    }
+    .accordion-button::after{
+        display: none;
+    }
+    .accordion-button li{
+        margin-left: -50px;
+        margin-top: -220px;
+    }
+    .accordion-button li a{
+        margin-left: 180px !important;
+    }
+    .accordion-button li a svg{
+        margin-left: 8px;
+    }
+    .accordion-button:not(.collapsed){
+        background: #170f6d;
+    }
+    .accordion-button:focus{
+        border: none !important;
+        box-shadow: none;
+    }
+    .accordion-body{
+        background: #170f6d;
+        padding: 0;
+    }
+    .accordion-header{
+        margin-bottom: -115px;
+    }
+    .accordion-body ul{
+        border-top: 1px solid #3f2829;
+        margin-top: 0 !important;
+    }
+    .accordion-body .drop-down li a{
+        color: #ffffff !important;
+        transition: .4s;
+    }
+    .accordion-item{
+        border: none;
+        background: none;
+    }
+    .accordion-button:not(.collapsed)::after{
+        color: #ffffff;
+    }
+    .mobile-nav .social-icons{
+        display: none;
+    }
+    .mobile-nav .nav-item .nav-overlay .top{
+        border-bottom: 1px solid #fb3640;
+        padding-bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-nav .nav-item .nav-overlay .top .cross{
+        display: inline-block;
+        margin-left: 20px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        line-height: 25px;
+        text-align: center;
+        font-size: 24px;
+        color: #fb3640;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+    .mobile-nav .nav-item .nav-overlay .top .ticket-button{
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    .mobile-nav .nav-item .nav-overlay .top .ticket-button a{
+        display: inline-block;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 600;
+        background: #fb3640;
+        border: 1px solid #fb3640;
+        border-radius: 5px;
+        padding: 5px 13px;
+        text-transform: uppercase;
+        -webkit-box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+        -moz-box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+        box-shadow: 3px 3px 1px 0px rgb(182, 15, 24);
+    }
+    .mobile-nav .nav-item .nav-overlay ul li:hover a{
+        color: #fb3640;
+    }
+    .accordion-button li:hover a{
+        color: #fb3640;
+    }
+    .accordion-body .drop-down li a:hover{
+        color: #fb3640 !important;
+    }
+    /* ==============================
+            Nav bar part end
+    ============================== */
+
+
+    /* ==============================
+            Banner part start
+    ============================== */
+    #banner-part .banner-overlay{
+        padding: 200px 0 100px 0;
+    }
+    #banner-part .banner-overlay .banner-slider .banner-text h1{
+        font-size: 60px;
+    }
+    #banner-part .banner-overlay .banner-slider .banner-text span{
+        font-size: 50px;
+    }
+    #banner-part .banner-overlay p{
+        width: 503px;
+    }
+    #banner-part .banner-overlay .social-part{
+        top: 35%;
+    }
+    #banner-part .banner-overlay .social-part .icons a{
+        padding: 2px 10px;
+    }
+    #banner-part .banner-overlay .nxt{
+        width: 35px;
+        height: 35px;
+        top: 85%;
+        right: -6%;
+    }
+    #banner-part .banner-overlay .prv{
+        width: 35px;
+        height: 35px;
+        top: 115%;
+        right: -6%;
+    }
+    /* ==============================
+            Banner part end
+    ============================== */
+
+    /* =============================
+        Blog banner part Css start
+    ============================== */
+    #blog-banner .blog-overlay{
+        padding:100px 0 80px 0;
+    }
+    #blog-banner .blog-overlay h1{
+        font-size: 65px;
+    }
+    /* =============================
+        Blog banner part Css end
+    ============================== */
+
+
+    /* =============================
+        Blog post part Css start
+    ============================== */
+    #blog-post{
+        padding: 100px 0;
+    }
+    #blog-post .blog-img{
+        margin-top: 20px;
+    }
+    #blog-post .blog-text h3{
+        font-size: 30px;
+    }
+    #blog-post .blog-text p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    #blog-post .blog-text .max-para{
+        display: none;
+    }
+    #blog-post .blog-text .button{
+        display: none;
+    }
+    /* =============================
+        Blog post part Css end
+    ============================== */
+
+
+    /* =============================
+        Contact banner part Css start
+    ============================== */
+    #contact-banner .contact-overlay{
+        padding:100px 0 80px 0;
+    }
+    #contact-banner .contact-overlay h1{
+        font-size: 65px;
+    }
+    /* =============================
+        Contact banner part Css end
+    ============================== */
+
+    /* =============================
+        Contact part Css start
+    ============================== */
+    #contact-part .contact-item{
+        display: flex;
+        justify-content: space-between;
+    }
+    #contact-part .chose-item{
+        width: 32%;
+    }
+    #contact-part .phone{
+        margin: 0;
+        padding: 20px 30px !important;
+    }
+    #contact-part .chose-item h5{
+        font-size: 16px;
+    }
+    #contact-part .chose-item a{
+        font-size: 16px;
+    }
+    /* =============================
+        Contact part Css end
+    ============================== */
+
+
+    /* ==============================
+           About part start
+    ============================== */
+    #about-part .img{
+        margin-top: 50px;
+    }
+    #about-part .top{
+        margin-top: 33px;
+    }
+    /* ==============================
+           About part end
+    ============================== */
+
+
+    /* ==============================
+           Events part start
+    ============================== */
+    #events-part .right{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    /* ==============================
+           Events part end
+    ============================== */
+
+
+    /* ==============================
+        Another counter part start
+    ============================== */
+    #anothercounter-part .overlay .box1{
+        margin-left: -50px;
+    }
+    #anothercounter-part .overlay .counter{
+        font-size: 40px;
+    }
+    #anothercounter-part .overlay span{
+        font-size: 40px;
+        margin-left: -25px;
+    }
+    #anothercounter-part .overlay .down-text1{
+        margin-top: 50px;
+        margin-left: -120px;
+    }
+    #anothercounter-part .overlay .box2{
+        margin-left: 20px;
+    }
+    #anothercounter-part .overlay .sign2{
+        margin-left: -105px;
+    }
+    #anothercounter-part .overlay .down-text2{
+        margin-top: 50px;
+        margin-left: -85px;
+    }
+    #anothercounter-part .overlay .box3{
+        margin-left: 40px;
+    }
+    #anothercounter-part .overlay .sign3{
+        margin-left: -104px;
+    }
+    #anothercounter-part .overlay .down-text3{
+        margin-top: 50px;
+    }
+    #anothercounter-part .overlay .box4{
+        margin-left: 47px;
+    }
+    #anothercounter-part .overlay .sign4{
+        margin-left: -2px;
+    }
+    #anothercounter-part .overlay .down-text4{
+        margin-top: 50px;
+        margin-left: -90px;
+    }
+
+    /* ==============================
+        Another counter part end
+    ============================== */
+
+
+
+    /* ==============================
+            Speaker part start
+    ============================== */
+    #speaker-part .text-part .text-slider .text p{
+        margin-left: 0;
+    }
+    #speaker-part .img-slider{
+        margin-top: 50px;
+    }
+    #speaker-part .img-slider .img{
+        margin-top: 20px;
+    }
+    /* ==============================
+            Speaker part end
+    ============================== */
+
+
+    /* =============================
+        Schedule part Css end
+    ============================== */
+    #schedule-part .boxscroll .event-item{
+        flex-wrap: wrap;
+    }
+    #schedule-part .boxscroll .event-item .img{
+        width: 22%;
+    }
+    #schedule-part .boxscroll .event-item .details{
+        width: 75%;
+    }
+    #schedule-part .boxscroll .event-item .details p{
+        width: 320px;
+    }
+    #schedule-part .boxscroll .event-item .details span{
+        font-size: 20px;
+        top: 120px;
+    }
+    #schedule-part .boxscroll .event-item .details .ex-mtop{
+        top: 155px;
+    }
+    #schedule-part .boxscroll .event-item .details .ex-mtop:nth-child(2){
+        top: 100px;
+    }
+    #schedule-part .boxscroll .event-item .button{
+        width: 100%;
+    }
+    #schedule-part .boxscroll .event-item .button .buttons a{
+        display: block;
+    }
+
+    /* =============================
+        Schedule part Css end
+    ============================== */
+
+
+    /* =============================
+        Price plan part Css start
+    ============================== */
+    #price-plan .ticket-item h4{
+        font-size: 28px;
+        margin-left: 0;
+    }
+    #price-plan .ticket-item p{
+        margin-left: 0;
+    }
+    #price-plan .ticket-item h3{
+        font-size: 22px;
+        margin-left: 0;
+    }
+    #price-plan .ticket-item ul{
+        padding: 0;
+    }
+    #price-plan .ticket-item ul li{
+        font-size: 16px;
+    }
+    #price-plan .ticket-item .buttons a{
+        font-size: 15px;
+        padding: 8px 14px;
+        margin-left: 0;
+    }
+    /* =============================
+        Price plan part Css end
+    ============================== */
+
+    /* =============================
+        Gallery part Css start
+    ============================== */
+    #gallery-part .gallery-slider .img .gallery-overlay h5{
+        font-size: 16px;
+        padding: 8px;
+    }
+    /* =============================
+        Gallery part Css end
+    ============================== */
+
+
+    /* =============================
+            Entry part Css start
+    ============================== */
+    #entry-part .entry-item .entry-form{
+        padding: 10px;
+    }
+    #entry-part .entry-item .entry-form form input{
+        width: 95%;
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+    #entry-part .entry-item .entry-form form .name{
+        width: 95%;
+    }
+    #entry-part .entry-item .entry-form form .lname{
+        margin-left: 0;
+    }
+    #entry-part .entry-item .entry-form form select{
+        width: 95%;
+        padding: 8px;
+    }
+    #entry-part .entry-item .entry-form form .payment{
+        width: 94%;
+        margin-top: 20px;
+        display: initial;
+        text-align: center;
+    }
+    #entry-part .entry-item .entry-form form .payment .text{
+        width: 95%;
+        margin-top: 20px;
+    }
+    #entry-part .entry-item .entry-form form .payment .card-img{
+        width: 70%;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    /* =============================
+            Entry part Css end
+    ============================== */
+
+
+    /* =============================
+            Review part Css start
+    ============================== */
+    #review-part{
+        padding: 100px 0;
+    }
+    #review-part .review-slider .nxt{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 117%;
+        right: 37%;
+    }
+    #review-part .review-slider .prv{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 117%;
+        left: 41%;
+    }
+    /* =============================
+            Review part Css end
+    ============================== */
+
+
+    /* =============================
+            Sponsor part Css start
+    ============================== */
+    #sponsor-part .right-part{
+        margin-top: 40px;
+    }
+    #sponsor-part .right-part .sponsor-img{
+        width: 220px;
+        height: 110px;
+    }
+    #sponsor-part .right-part .margin-top{
+        margin-top: 20px;
+    }
+    /* =============================
+            Sponsor part Css end
+    ============================== */
+
+
+    /* =============================
+            Footer part Css start
+    ============================== */
+    #footer-part .newsletter form button{
+        right: 47px;
+    }
+    #footer-part .newsletter .icons{
+        position: absolute;
+        top: 90px;
+        left: -50px;
+    }
+    #footer-part .quick-links{
+        text-align: center;
+        margin-top: 68px;
+    }
+    #footer-part .quick-links ul{
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    #footer-part .quick-links ul li{
+        display: inline-block;
+    }
+    /* =============================
+            Footer part Css end
+    ============================== */
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+    /* ==============================
+            Nav bar part start
+    ============================== */
+    .nav-bar .menu-item{
+        margin-left: -30px;
+    }
+    .nav-bar .menu-item ul{
+        margin-top: 3px !important;
+    }
+    .nav-bar .menu-item ul li{
+        margin-left: 30px;
+    }
+    /* ==============================
+            Nav bar part end
+    ============================== */
+
+
+    /* ==============================
+            Banner part start
+    ============================== */
+    #banner-part .banner-overlay p{
+        width: 515px;
+    }
+    #banner-part .banner-overlay .social-part{
+        top: 32%;
+    }
+    #banner-part .banner-overlay .nxt{
+        top: 95%;
+        right: -4%;
+    }
+    #banner-part .banner-overlay .prv{
+        top: 120%;
+        right: -4%;
+    }
+    /* ==============================
+            Banner part end
+    ============================== */
+
+
+    /* =============================
+        Blog banner part Css start
+    ============================== */
+    #blog-banner .blog-overlay{
+        padding:100px 0 80px 0;
+    }
+    #blog-banner .blog-overlay h1{
+        font-size: 65px;
+    }
+    /* =============================
+        Blog banner part Css end
+    ============================== */
+
+
+    /* =============================
+        Blog post part Css start
+    ============================== */
+    #blog-post{
+        padding: 100px 0;
+    }
+    #blog-post .blog-text h3{
+        font-size: 30px;
+    }
+    #blog-post .blog-text p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    #blog-post .blog-text .button{
+        display: block;
+    }
+    #blog-post .blog-text .button a{
+        display: inline-block;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        color: #fb3640;
+        font-weight: 400;
+    }
+    #blog-post .blog-text .bottom-para{
+        display: none;
+    }
+    #blog-post .blog-text .max-para{
+        display: none;
+    }
+    /* =============================
+        Blog post part Css end
+    ============================== */
+    /* =============================
+        Contact part Css start
+    ============================== */
+    #contact-part .phone{
+        margin: 25px 0;
+    }
+    #contact-part .chose-item h5{
+        font-size: 17px;
+    }
+    #contact-part .chose-item a{
+        font-size: 16px;
+    }
+    /* =============================
+        Contact part Css end
+    ============================== */
+
+
+    /* ==============================
+            About part start
+    ============================== */
+    #about-part .text h3{
+        font-size: 30px;
+    }
+    #about-part .img{
+        margin-top: 22px;
+    }
+    #about-part .top{
+        margin-top: 21px;
+    }
+    /* ==============================
+            About part end
+    ============================== */
+
+
+    /* ==============================
+            Events part start
+    ============================== */
+    #events-part .left .item{
+        padding: 10px;
+    }
+    #events-part .left .item p{
+        width: 100%;
+    }
+    #events-part .right .text h3{
+        font-size: 30px;
+    }
+    /* ==============================
+            Events part end
+    ============================== */
+
+    /* ==============================
+        Another counter part start
+    ============================== */
+    #anothercounter-part .overlay .box1{
+        margin-left: -132px;
+    }
+    #anothercounter-part .overlay .box2{
+        margin-left: -12px;
+    }
+    #anothercounter-part .overlay .box4{
+        margin-left: 125px;
+    }
+    /* ==============================
+        Another counter part end
+    ============================== */
+
+
+    /* ==============================
+            Speaker part start
+    ============================== */
+    #speaker-part .title h3{
+        font-size: 30px;
+        margin-bottom: -32px;
+    }
+    #speaker-part .text-part .text-slider .text p{
+        width: 100%;
+        text-align: justify;
+    }
+    #speaker-part .text-part .text-slider .text .spece-time span{
+        margin-top: 0;
+    }
+    #speaker-part .nxt{
+        bottom: -25%;
+    }
+    #speaker-part .prv{
+        bottom: -25%;
+    }
+    #speaker-part .img-slider .img .details{
+        left: 7px;
+    }
+    /* ==============================
+            Speaker part end
+    ============================== */
+
+
+    /* ==============================
+            Schedule part start
+    ============================== */
+    #schedule-part .boxscroll .event-item .button{
+        width: 18%;
+    }
+    #schedule-part .boxscroll .event-item .button .buttons{
+        margin-top: 43px;
+    }
+    #schedule-part .boxscroll .event-item .details .ex-mtop{
+        top: 128px;
+    }
+    #schedule-part .boxscroll .event-item .details .ex-mtop:nth-child(2){
+        top: 100px;
+    }
+    #schedule-part .boxscroll .event-item .details h3{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    /* ==============================
+            Schedule part end
+    ============================== */
+
+
+    /* ==============================
+            Gallery part start
+    ============================== */
+    #gallery-part .gallery-slider .img .gallery-overlay h5{
+        font-size: 17px;
+        padding: 6px;
+    }
+    /* ==============================
+            Gallery part end
+    ============================== */
+
+    /* ==============================
+            Entry part start
+    ============================== */
+    #entry-part .entry-item .entry-form form .lname{
+        margin-left: 15px;
+    }
+    /* ==============================
+            Entry part end
+    ============================== */
+
+
+    /* ==============================
+            Review part start
+    ============================== */
+    #review-part .review-slider .slider-item .img img{
+        width: 100%;
+    }
+    #review-part .review-slider .slider-item .detail-review{
+        width: 61%;
+        padding: 7px;
+    }
+    #review-part .review-slider .slider-item .detail-review p{
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+        text-align: justify;
+    }
+    #review-part .review-slider .slider-item .detail-review .rating span{
+        margin-top: 1px;
+    }
+    #review-part .review-slider .slider-item .detail-review h5{
+        font-size: 20px;
+        margin-top: 0;
+    }
+    #review-part .review-slider .slider-item .detail-review h6{
+        font-size: 16px;
+    }
+    #review-part .review-slider .nxt{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 117%;
+        right: 43%;
+    }
+    #review-part .review-slider .prv{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 117%;
+        left: 46%;
+    }
+    /* ==============================
+            Review part end
+    ============================== */
+
+
+    /* ==============================
+            Sponsor part start
+    ============================== */
+    #sponsor-part .left-part .text h3{
+        font-size: 30px;
+    }
+    #sponsor-part .right-part .sponsor-img{
+        width: 170px;
+        height: 100px;
+    }
+    #sponsor-part .right-part .sponsor-img img{
+        width: 90%;
+        margin-top: 37px;
+    }
+    #sponsor-part .right-part .margin-top{
+        margin-top: 19px;
+    }
+    /* ==============================
+            Sponsor part end
+    ============================== */
+    .go-top{
+        right: 146px;
+    }
+
+
+    /* ==============================
+            Footer part start
+    ============================== */
+    #footer-part .newsletter form button{
+        top: 55px;
+        right: 63px;
+    }
+
+
+    /* ==============================
+            Footer part end
+    ============================== */
+}
+
+@media only screen and (width:1440px){
+
+    /* ==============================
+            Banner part start
+    ============================== */
+
+    #banner-part .banner-overlay .nxt{
+        right: -5%;
+    }
+    #banner-part .banner-overlay .prv{
+        right: -5%;
+    }
+    /* ==============================
+            Banner part end
+    ============================== */
+
+    /* ===========================
+           Blog post part start
+    =========================== */
+    #blog-post .blog-text .max-para{
+        display: block;
+        margin-top: 15px;
+    }
+    /* ===========================
+           Blog post part end
+    =========================== */
+    
+
+    /* ==============================
+            Speaker part start
+    ============================== */
+    #speaker-part .text-part .text-slider .text .spece-time .mar-left{
+        margin-left: 42px;
+    }
+    /* ==============================
+            Speaker part end
+    ============================== */
+
+
+    /* ==============================
+            Sponsor part start
+    ============================== */
+    #sponsor-part .right-part .sponsor-img{
+        width: 233px !important;
+    }
+    /* ==============================
+            Sponsor part end
+    ============================== */
+
+    /* ==============================
+            Footer part start
+    ============================== */
+    #footer-part .newsletter form button{
+        top: 54px;
+        right: 87px;
+    }
+    /* ==============================
+            Footer part end
+    ============================== */
+}
+
+@media only screen and (width:1024px){
+
+    /* ==============================
+            Banner part start
+    ============================== */
+    #banner-part .banner-overlay .social-part{
+        top: 66%;
+    }
+
+    /* ==============================
+            Banner part end
+    ============================== */
+
+    /* ==============================
+            Blog psot part start
+    ============================== */
+    #blog-post .blog-text .button{
+        display: block;
+    }
+
+
+    /* ==============================
+            Blog psot part end
+    ============================== */
+
+    /* ==============================
+            Speaker part start
+    ============================== */
+    #speaker-part .text-part .text-slider .text .spece-time .mar-left{
+        margin-left: 0;
+    }
+    /* ==============================
+            Speaker part end
+    ============================== */
+
+
+    /* ==============================
+            Sponsor part start
+    ============================== */
+    #sponsor-part .right-part .sponsor-img{
+        width: 172px !important;
+    }
+    /* ==============================
+            Sponsor part end
+    ============================== */
+
+
+    /* ==============================
+            Footer part start
+    ============================== */
+    #footer-part .newsletter form button{
+        top: 54px;
+        right: 63px;
+    }
+    /* ==============================
+            Footer part end
+    ============================== */
+}
+
+@media only screen and (width:375px){
+
+    /* ===========================
+        Speaker part start
+    =========================== */
+    #speaker-part .img-slider .img .details{
+        left: 10px;
+    }
+    /* ===========================
+        Speaker part end
+    =========================== */
+
+    /* ===========================
+        Schedule part start
+    =========================== */
+    #schedule-part .boxscroll .event-item .details span{
+        top: 155px;
+    }
+    #schedule-part .boxscroll .event-item .details span:nth-child(2){
+        top: 97px;
+    }
+    #schedule-part .boxscroll .event-item .details .extra-top{
+        top: 123px;
+    }
+    #schedule-part .boxscroll .event-item .details .extra-top:nth-child(2){
+        top: 62px;
+    }
+    #schedule-part .boxscroll .event-item .details .mtop{
+        top: 153px;
+    }
+    #schedule-part .boxscroll .event-item .details .mtop:nth-child(2){
+        top: 97px;
+    }
+    
+    /* ===========================
+        Schedule part end
+    =========================== */
+
+    /* ===========================
+        Gallery part start
+    =========================== */
+    #gallery-part .gallery-slider .img .gallery-overlay h5{
+        text-align: center;
+    }
+    /* ===========================
+        Gallery part end
+    =========================== */
+
+    /* ===========================
+        Sponsor part start
+    =========================== */
+    #sponsor-part .right-part .sponsor-img{
+        width: 172px;
+    }
+    /* ===========================
+        Sponsor part end
+    =========================== */
+
+    /* ===========================
+        Footer part start
+    =========================== */
+    #footer-part .newsletter form button{
+        top: 42px;
+    }
+    #footer-part .quick-links ul li{
+        padding: 10px;
+    }
+
+
+    /* ===========================
+        Footer part end
+    =========================== */
+}
+
+@media only screen and (width:425px){
+
+    /* ===========================
+        Speaker part start
+    =========================== */
+    #speaker-part .img-slider .img .details{
+        left: 10px;
+    }
+    /* ===========================
+        Speaker part end
+    =========================== */
+
+    /* ===========================
+        Schedule part start
+    =========================== */
+    #schedule-part .boxscroll .event-item .details span{
+        top: 155px;
+    }
+    #schedule-part .boxscroll .event-item .details span:nth-child(2){
+        top: 97px;
+    }
+    #schedule-part .boxscroll .event-item .details .extra-top{
+        top: 123px;
+    }
+    #schedule-part .boxscroll .event-item .details .extra-top:nth-child(2){
+        top: 62px;
+    }
+    #schedule-part .boxscroll .event-item .details .mtop{
+        top: 124px;
+    }
+    #schedule-part .boxscroll .event-item .details .mtop:nth-child(2){
+        top: 62px;
+    }
+    
+    /* ===========================
+        Schedule part end
+    =========================== */
+
+    /* ===========================
+        Gallery part start
+    =========================== */
+    #gallery-part .gallery-slider .img .gallery-overlay h5{
+        text-align: center;
+    }
+    /* ===========================
+        Gallery part end
+    =========================== */
+
+    /* ===========================
+        Sponsor part start
+    =========================== */
+    #sponsor-part .right-part .sponsor-img{
+        width: 200px;
+    }
+    /* ===========================
+        Sponsor part end
+    =========================== */
+
+    /* ===========================
+        Footer part start
+    =========================== */
+    #footer-part .newsletter form button{
+        top: 42px;
+    }
+    #footer-part .quick-links ul li{
+        padding: 6px;
+    }
+
+
+    /* ===========================
+        Footer part end
+    =========================== */
+}
+
+@media only screen and (width:768px){
+
+    /* ===========================
+        Banner part start
+    =========================== */
+    #banner-part .banner-overlay .social-part{
+        top: 61%;
+    }
+    /* ===========================
+        Banner part end
+    =========================== */
+}
+
+@media only screen and (width:2560px){
+
+    /* ===========================
+           Blog post part start
+    =========================== */
+    #blog-post .blog-text .max-para{
+        display: block;
+        margin-top: 15px;
+    }
+    /* ===========================
+           Blog post part end
+    =========================== */
+
+    /* ===========================
+           Speaker part start
+    =========================== */
+    #speaker-part .text-part .text-slider .text .spece-time .mar-left{
+        margin-left: 42px;
+    }
+    /* ===========================
+           Speaker part end
+    =========================== */
+
+
+    /* ===========================
+        Sponsor part start
+    =========================== */
+    #sponsor-part .right-part .sponsor-img{
+        width: 235px;
+    }
+    /* ===========================
+        Sponsor part end
+    =========================== */
+
+
+    /* ===========================
+        Footer part start
+    =========================== */
+    #footer-part .newsletter form button{
+        right: 87px;
+    }
+    /* ===========================
+        Footer part end
+    =========================== */
+}
